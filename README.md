@@ -18,11 +18,11 @@ createWorld() function
 5. Once all the parameters have been created, we go to the solver() function. The solver() function is the main function which solves the problem
 6. Inside the solver function, we do the following:
 - 6.1 For all robots
-6.1.1 Get a set of velocities which lie in range v_min and v_max
-6.1.2 Now, from among these set of velocities, further filter to get the set of velocities which do not result in a collision.
-6.1.3 Once the set of velocities which do not result in a collision have been identified, from these velocities, choose the velocity which minimizes the distance between robots present location and its goal.
+- - 6.1.1 Get a set of velocities which lie in range v_min and v_max
+- - 6.1.2 Now, from among these set of velocities, further filter to get the set of velocities which do not result in a collision.
+- - 6.1.3 Once the set of velocities which do not result in a collision have been identified, from these velocities, choose the velocity which minimizes the distance between robots present location and its goal.
 - 6.2 Keep doing the above process for each robot, till the robot is within a threshold distance of its goal.
-6.3 In case the number of iterations go beyond a threshold maximum number of iterations, then
+- 6.3 In case the number of iterations go beyond a threshold maximum number of iterations, then
 exit even if the goal is not reached. This is done to prevent the program from going into an infinite loop for the cases where a solution is not possible.
 
 # Directory Structure
