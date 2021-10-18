@@ -7,6 +7,10 @@ A Velocity obstacle (VO) refers to the set of all velocities of a robot which wi
 At each time step, we look at all the possible velocities which the robot may take, subject to the constraint that the chosen velocity lies between a user-specified range of minimum and maximum velocities (v_min and v_max respectively). Then, from among these velocities we look at all the velocities which do not lead to a collision. And then from among the set of velocities which lie between v_min and v_max and also don’t lead to a collision, we choose the velocity which minimizes the distance between robots present position and its goal.
 Note: For the purpose of this assignment, we have framed the problem as a sampling problem, and have solved it for the case of a holonomic robot.
 
+## Four dynamic bodies concurrently in motion
+![4_diagonal](https://user-images.githubusercontent.com/44245211/137789840-99fca316-0cfd-42c1-8eb3-31ac5159fb58.gif)
+![4_random](https://user-images.githubusercontent.com/44245211/137789848-4efe5920-0acc-44a7-9c2b-4f5799809831.gif)
+
 # Outline of the Code
 1. Create an empty image. This empty image represents our world.
 2. Create a set of robots. (Note: In order to ease the coding process, the dynamic obstacles too
