@@ -11,7 +11,6 @@ Note: For the purpose of this assignment, we have framed the problem as a sampli
 ![4_diagonal](https://user-images.githubusercontent.com/44245211/137789840-99fca316-0cfd-42c1-8eb3-31ac5159fb58.gif)
 ![4_random](https://user-images.githubusercontent.com/44245211/137789848-4efe5920-0acc-44a7-9c2b-4f5799809831.gif)
 ![3_random](https://user-images.githubusercontent.com/44245211/137790371-922347c6-a833-416c-b28c-c0865f03580d.gif)
-![2_diagonal](https://user-images.githubusercontent.com/44245211/137790358-8c5ecd2b-576e-4421-8ee2-b23c83f5d5ca.gif)
 
 # Outline of the Code
 1. Create an empty image. This empty image represents our world.
